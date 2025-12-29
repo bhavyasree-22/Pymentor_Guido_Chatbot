@@ -63,6 +63,10 @@ source myenv/bin/activate
 ``` bash
 myenv\Scripts\activate
  ```
+#### Due to reasons like Incorrect Directory,Wrong Command Syntax,if Venv Not Created,if Terminal Not Recognizing the Command,Previous Activation State run this in your terminal
+```bash
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
 ### 4. Install Dependencies
 * If you'd prefer to install all required packages at once, you can use the provided requirements.txt file:
 ```bash
