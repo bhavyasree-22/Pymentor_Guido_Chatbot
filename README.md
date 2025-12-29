@@ -124,3 +124,21 @@ python pymentor.py
 #### 3. Guido will respond with a spoken answer. 
 #### 4. Say "explain in detail" or "give me more details" if you want a longer explanation.
 #### 5. Say "exit" anytime to stop the program.
+---
+## 🧠 Code Structure
+* `pytutor.py`: Main script containing:
+  * API configuration `google-generativeai`
+  * Voice input using `speech_recognition`
+  * Voice output using `pyttsx3`
+  * Gemini model prompt construction and interaction
+  * Voice-based command loop
+  ---
+## 🤝 Contributing
+* Contributions are welcome! If you'd like to suggest improvements, report bugs, or add new features, please open an issue or submit a pull request.
+---
+### 📬 Contact
+* For queries or suggestions, please contact:
+ [Bhavya sree](gubbabhavya@gmail.com)
+---
+### ⚠️ Disclaimer
+This project uses Google Generative AI. Make sure to follow their [terms of services](https://ai.google.dev/gemini-api/terms) when using the API.
